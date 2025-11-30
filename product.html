@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <!-- CDN LINKS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-20">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg class="w-5 h-5 cursor-pointer md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contatct.html">contatct</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Proucuts -->
+    <div class="container">
+        <div class="p-4 flex justify-center">
+            <h1 class="font-bold text-3xl mt-5">Our Products</h1>
+        </div>
+        <div>
+            <input type="text" placeholder="Search for a Product..."
+                class="w-full max-w-3xl mx-auto block border border-gray-400 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400" />
+        </div>
+    </div>
+    <!-- Product image section -->
+    <section class="p-4 text-center z-10">
+        <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="./Images/Product Page image 1.jpg">
+                <h1 class="font-bold">Rose Plant</h1>
+                <p class="font-bold"><del>$80</del>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="./Images/Product image 2.jpg">
+                <h1 class="font-bold">Snake Plant</h1>
+                <p class="font-bold"><del>$70</del>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="./Images/Product image 3.jpg">
+                <h1 class="font-bold">cactus Plant</h1>
+                <p class="font-bold"><del>$90</del>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="./Images/Product image 4.jpg">
+                <h1 class="font-bold">Rose Plant</h1>
+                <p class="font-bold"><del>$100</del>$20</p>
+            </div>
+        </div>
+    </section>
+    <!--Product Image section two-->
+    <section class="p-4 text-center z-10">
+        <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="./Images/product image 5.jpg">
+                <h1 class="font-bold">Aloe Vera</h1>
+                <p class="font-bold"><del>$80</del>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="./Images/product image 6.jpg">
+                <h1 class="font-bold">Ambrosy</h1>
+                <p class="font-bold"><del>$70</del>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="./Images/product image 7.jpg">
+                <h1 class="font-bold">Arosy</h1>
+                <p class="font-bold"><del>$90</del>$20</p>
+            </div>
+            <div>
+                <img class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2"
+                    src="Images/product image 8.jpg">
+                <h1 class="font-bold">Acose</h1>
+                <p class="font-bold"><del>$100</del>$20</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="bg-green-100 p-10">
+        <h1 class="font-bold text-4xl">Greenden</h1>
+        <p class="mt-5">Our flower-selling website offers a beautiful collection of fresh plants and blooms, perfect for
+            every occasion. Customers can explore a wide range of roses, lilies, indoor plants, and decorative pots.
+            With clear product details, easy navigation, and secure checkout, we make buying flowers simple, convenient,
+            and enjoyable.</p>
+        <p class="mt-5">@ 2021 Greenday.com</p>
+        <!-- Logobar -->
+        <section>
+            <div class="mt-7 flex gap-6 justify-evenly">
+                <img class="w-8" src="./Images/instagram.png">
+                <img class="w-8" src="./Images/tik-tok.png">
+                <img class="w-8" src="./Images/twitter.png">
+                <img class="w-8" src="./Images/youtube.png">
+            </div>
+        </section>
+</body>
+
+</html>
